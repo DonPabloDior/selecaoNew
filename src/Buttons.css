@@ -1,0 +1,168 @@
+svg {
+    width: 20px;
+    height: 20px;
+    color: #ef6603;
+}
+
+img {
+    width: 30rem;
+    height: 30rem;
+}
+
+.images {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wrappy {
+    width: 50%;
+}
+
+
+.paragraph-wraps {
+    display: flex;
+
+}
+
+.contant {
+    background-color: white;
+    color: #2a2c39;
+    padding: 2rem 5rem;
+}
+
+.wrap-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.juno {
+    padding: 1rem 3rem;
+    width: 20rem;
+    font-size: 1.1rem;
+    background-color: white;
+    border: gray solid 0.03rem;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.juno svg {
+    width: 50px;
+    height: 50px;
+    fill: #2a2c39;
+}
+
+.iccc {
+    padding-right: 0.32rem;
+}
+
+.juno:hover {
+    border: #ef6603 solid 0.03rem;
+    color: #ef6603;
+}
+
+.juno:hover svg path {
+    fill: #ef6603;
+}
+
+.wrap-calltoac {
+    padding: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.call-wrap {
+    width: 50rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.call-button-wrap {
+    width: 12rem;
+    padding: 1rem 2rem;
+    background-color: #ef6603;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.call-button-wrap:hover {
+    background-color: white;
+    color: #ef6603;
+
+}
+
+
+.offer-cont {
+    background-color: white;
+    padding: 4rem 5rem;
+    color: #2a2c39;
+}
+
+.cont h1 {
+    text-transform: uppercase;
+}
+
+.offer-wrap h1 {
+    text-transform: uppercase;
+}
+
+.offer-wrap .lol::after {
+    content: '';
+    width: 6rem;
+    height: 0.05rem;
+    background-color: #ef6603;
+    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+
+}
+
+.offer-wrap .lol {
+    margin-bottom: 1rem;
+}
+
+.buttones {
+    background-color: white;
+    position: relative;
+    padding: 4rem;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 1px 90px rgba(0, 0, 0, 0.1);
+}
+
+.buttones:hover {
+    box-shadow: 0 1px 90px rgba(0, 0, 0, 0.17);
+    cursor: pointer;
+}
+
+.svglor {
+    position: absolute;
+    left: -20px;
+}
+
+.buttones-wrape {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    border: none;
+    margin-top: 3rem;
+}
+
+.svglor svg {
+    width: 4rem;
+    height: 4rem;
+
+}

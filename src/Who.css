@@ -1,0 +1,75 @@
+.cont {
+    background-color: white;
+    color: #2a2c39;
+    padding: 6rem 5rem;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.wrap .w1 {
+    width: 50%;
+}
+
+.wrap .w2 {
+    width: 50%;
+    display: grid;
+}
+
+.w2 button {
+    width: 8rem;
+    height: 3rem;
+    background-color: transparent;
+    border: #ef6603 solid 0.18rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.w2 button:hover {
+    background-color: #ef6603;
+    cursor: pointer;
+    color: white;
+}
+
+.lol::after {
+    content: '';
+    width: 6rem;
+    height: 0.05rem;
+    background-color: #ef6603;
+    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    left: 3.9rem;
+
+}
+
+.lol {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    color: #ef6603;
+
+}
+
+.svgs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}

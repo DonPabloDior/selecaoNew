@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;400;600&display=swap');
+
+.pishka {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body {
+  background-color: #323548;
+  overflow: none;
+  margin: auto;
+  color: white;
+}
+
+* {
+  font-family: 'Geologica', sans-serif;
+}
+
+.buttonNav {
+  transition: background-color 0.2s ease-in;
+}
+
+.buttonNav:hover {
+  background-color: #ef6603;
+  color: white;
+}
+
+.words {
+  display: grid;
+  place-items: center;
+}
+
+.wave-word {
+  -webkit-text-stroke: 0.05rem #ef6603;
+  color: transparent;
+}
+
+.wave-word,
+.wave-animation {
+  grid-area: title;
+  font-size: 10vmin;
+  text-transform: uppercase;
+}
+
+.banner {
+  height: 30rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.banner-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.banner button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: solid #ef6603 0.15rem;
+  background-color: transparent;
+  color: #ef6603;
+  cursor: pointer;
+}
+
+.banner p {
+  font-weight: 400;
+}
+
+.wave-animation {
+  animation: waving 5s ease-in-out infinite;
+  color: #ef6603;
+}
+
+@keyframes waving {
+
+  0%,
+  100% {
+    clip-path: polygon(0% 33%, 6% 41%, 21% 52%, 34% 56%, 49% 57%, 66% 50%, 75% 43%, 92% 32%, 100% 28%, 100% 99%, 1% 100%);
+  }
+
+  50% {
+    clip-path: polygon(0 59%, 9% 52%, 20% 44%, 34% 36%, 46% 32%, 57% 32%, 74% 37%, 86% 45%, 100% 54%, 100% 99%, 1% 100%);
+  }
+}
+
+@keyframes wave {
+  2% {
+    transform: translateX(1);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(1);
+  }
+}
+
+.wrapper_foot {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
