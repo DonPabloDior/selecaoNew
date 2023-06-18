@@ -17,7 +17,7 @@ export default function Nav(){
     },[])
     return(
         <>
-            <nav ref={app}>
+            <nav ref={app} className='nav-girl'>
                 <div className="logo">Selecao</div>
                 <div className="nav-links" >
                     <p className="first" ref={links}>Home</p>
